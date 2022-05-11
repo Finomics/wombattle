@@ -6,7 +6,7 @@ import { GlobalProvider } from './context/GlobalState';
 import './App.css';
 import { EthAccountInfo } from './components/ETHAccountInfo';
 import LotteryCards from './components/cards/index';
-import TopSection from './components/topSection/'
+//import TopSection from './components/topSection/'
 
 function App() {
   return (
