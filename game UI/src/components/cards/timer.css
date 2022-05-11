@@ -1,0 +1,155 @@
+/* .display-timer{
+   
+} */
+.timer-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    font-size: 25px;
+    color:rgb(42, 42, 42);
+}
+.timer-flex div{
+    /* margin-right: -70px; */
+}
+.timer-num-two-heading{
+    height: 80px;
+    font-size: 25px;
+    color: rgb(42, 42, 42);
+     /* font-weight: ; */
+
+}
+.timer-flex div span{
+    display: block;
+    color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-size: 25px;
+}
+.timer-flex div .timer-num-two-heading{
+    display: block;
+    color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        font-size: 25px;
+}
+.timer-text{
+    font-weight: 400;
+    height: 30px;
+    font-size: 19px;
+    color: grey;
+
+
+}
+.timer-num{
+    height: 80px;
+    font-size: 25px;
+    color: rgb(42, 42, 42);
+     margin-bottom: -22px;
+     /* font-weight: ; */
+}
+
+.heading-div p{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 5px;
+    letter-spacing: 1px;
+    color: rgb(42, 42, 42);
+    margin-bottom: 6px;
+    
+    font-family: 'Helvetica Neu', Helvetica, 'Segoe UI', Arial , sans-serif ;
+}
+.heading{
+     font-size: 30px; 
+    font-weight: 550;
+    font-family: 'Helvetica Neu', Helvetica, 'Segoe UI', Arial , sans-serif ;
+    margin-bottom: 100px;
+    
+}
+.timertext-top{
+    font-family: 'Helvetica Neu', Helvetica, 'Segoe UI', Arial , sans-serif ;
+    font-size: 18px;
+}   
+
+.btn-div{
+    text-align: center;
+}
+
+.btn-div button{
+    width: 105px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 10px;
+    background-color: #ffbd69;
+    color: rgb(42, 42, 42);
+}
+
+
+.timer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: left;
+    font-family: 'Helvetica Neu', Helvetica, 'Segoe UI', Arial , sans-serif ;
+    color : rgb(42, 42, 42);
+    margin-bottom: -20px;
+}
+
+
+.b1{
+    color:rgb(42, 42, 42);
+     font-size: 18px ; 
+     font-family: 'Helvetica Neu', Helvetica, 'Segoe UI', Arial , sans-serif ;
+     font-weight: bold; 
+     margin-left: 5px;
+     margin-right: 5px;
+
+    }
+
+    .b2{
+        color:rgb(42, 42, 42);
+        font-size: 19px ; 
+        font-weight: bold; 
+        font-family: 'Helvetica Neu', Helvetica, 'Segoe UI', Arial , sans-serif ;
+        margin-left: 5px;
+        margin-right: 5px;
+       }
+
+
+
+      .backArrow{
+          margin-left: 10%;
+          color: #27ade6;
+      }
+
+
+       @media screen and (max-width: 600px) {
+        .text-container {
+          display: inline-flexbox;
+        
+        
+        }
+
+        .b2{
+            color:rgb(42, 42, 42);
+            font-size: 19px ; 
+            font-weight: bold; 
+            font-family: 'Helvetica Neu', Helvetica, 'Segoe UI', Arial , sans-serif ;
+            margin-left: 5px;
+            margin-right: 5px;
+           }
+           .b1{
+            color:rgb(42, 42, 42);
+             font-size: 18px ; 
+             font-weight: bold; 
+             margin-left: 5px;
+             margin-right: 5px;
+            }
+            .heading-div p{
+                display: block;
+            }
+      }
+      

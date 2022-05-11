@@ -1,0 +1,124 @@
+.second-container{
+    margin-top: 40px;
+    width: 80%;
+    /* text-align: left; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.helpeer-heading-container{
+    margin-left: 7%;
+    font-size: 23px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    
+}
+.ul-container{
+    margin-right: -17%;
+   
+  }
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    display: flex;
+    /* font-size: 20px; */
+
+}
+
+.a {
+    display: block;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s ease-in;
+    cursor: pointer;
+    margin-left: 15px
+}
+
+.connected{
+    background-color: #a1764f;
+    transition: 0.5s;
+    color: white;
+    border-radius: 5px
+
+}
+/* .connected:hover{
+    background-color: black;
+    color: #fab06f
+} */
+@media (max-width: 600px) {
+.second-container{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+
+
+}
+.helpeer-heading-container {
+    margin-left: 0%;
+
+}
+.ul-container{
+    /* text-align: center;
+    justify-content: center;
+    margin-left: 54px */
+    margin-right: -0%;
+    margin-left: 82px 
+
+}
+}
+
+@media (max-width: 414px) {
+    .ul-container{
+        /* text-align: center;
+        justify-content: center;
+        margin-left: 54px */
+        margin-right: -0%;
+        margin-left: 0px 
+    
+    }
+    .a {
+        display: block;
+        font-weight: bold;
+        padding: 10px 20px;
+        color: black;
+        text-decoration: none;
+        transition: color 0.2s ease-in;
+        cursor: pointer;
+        margin-left: 12px
+    }
+}
+
+
+@media (max-width: 360px) {
+    .ul-container{
+        /* text-align: center;
+        justify-content: center;
+        margin-left: 54px */
+        margin-right: -0%;
+        margin-left: 0px 
+    
+    }
+    .connect{
+        font-size: 15px
+    }
+    .a {
+        display: block;
+        font-weight: bold;
+        padding: 10px 20px;
+        color: black;
+        text-decoration: none;
+        transition: color 0.2s ease-in;
+        cursor: pointer;
+        margin-left: 14px;
+        padding: 10px 12px;
+
+    }
+    
+}

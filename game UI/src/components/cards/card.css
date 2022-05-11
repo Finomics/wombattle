@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+  }
+
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+    margin-top: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+
+  
+  /* Style the counter cards */
+  .card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    color: rgb(42, 42, 42);
+    padding: 16px;
+    text-align: center;
+    background-color: #fab06f7e;
+    border-radius: 20px;
+    /* height: 300px */
+    box-shadow: 0 8px 6px -6px black;
+    transition: 1s
+}
+
+.card:hover {
+  background-color: #fab06faf;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -6px black;
+
+
+}
+
+.lotter-cards-container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.lottercard-top-container{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 5px
+}
+.lottercard-current-part{
+  margin-left: 10px
+
+}
+.lottercard-max-part{
+  margin-right: 10px
+}
+
+.lottercard-btn-container{
+  display: flex;
+  justify-content: space-between
+}
+.lottercard-contribution-heading{
+}
+.lottercard-draw-btn{
+  width: 150px;
+  margin-left: 10px;
+  height: 30px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: rgba(99, 163, 223, 0.993);
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.8s
+}
+
+.lottercard-draw-btn:hover{
+  background-color: rgba(42, 117, 187, 0.993);
+}
+
+.lottercard-lotto-btn{
+  width: 150px;
+  margin-right: 10px;
+  height: 30px;
+  font-size: 17px;
+  border-radius: 10px;
+  background-color: rgba(102, 221, 142, 0.979);
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.8s
+
+}
+
+.lottercard-lotto-btn:hover{
+  background-color: rgba(84, 190, 119, 0.979);
+}
+
+
+.lottercard-lotto-btn-disabled{
+  width: 150px;
+  margin-right: 10px;
+  height: 30px;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: not-allowed;
+  background-color: rgba(102, 221, 142, 0.979);
+  border-style: none;
+  color: white;
+  font-weight: 700;
+  transition: 0.8s
+
+}
+
