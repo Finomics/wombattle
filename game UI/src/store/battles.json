@@ -1,0 +1,21 @@
+
+export const Battle Response = [
+	{
+		"Id":1,
+		"creater": "Hamad",
+		"status": 0,
+		"amount": 300
+	},
+    {
+		"Id":2,
+		"creater": "Sharjeel",
+		"status": 0,
+		"amount": 400
+	},
+    {
+		"Id":3,
+		"creater": "Ali",
+		"status": 1,
+		"amount": 500
+	}
+]
