@@ -11,7 +11,7 @@ import LotteryCards from './components/cards/index';
 function App() {
   return (
     <GlobalProvider>
-      <Header />
+      {/* <Header /> */}
       {/* <TopSection /> */}
       {/* <LotteryCards /> */}
     </GlobalProvider>
